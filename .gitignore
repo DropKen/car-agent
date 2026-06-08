@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.DS_Store
+.idea/
+.vscode/
+
+# Local runtime outputs
+results*/
+logs/
+*.log
+*.zip
+
+# Temporary and generated files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.tmp
+*.bak
+
+# Local secrets and machine-specific config
+.env
+.env.*
+server/config/config.json
+demo/server/config/config.json
