@@ -25,3 +25,6 @@ logs/
 .env.*
 server/config/config.json
 demo/server/config/config.json
+
+# Large official datasets exceed GitHub's 100MB file limit; keep them local.
+demo_docs_release_20260529 (2)/demo/server/data/cargo_dataset.jsonl
